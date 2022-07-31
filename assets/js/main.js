@@ -15,7 +15,7 @@ function flipCard(e){
             return cardOne = clickedCard; //cardOne에 clickedCard 할당.
         }
         cardTwo = clickedCard;
-        disableDeck - true;
+        disableDeck = true;
         //console.log(cardOne, cardTwo);
         let cardOneImg = cardOne.querySelector('img').src,
         cardTwoImg = cardTwo.querySelector('img').src;
